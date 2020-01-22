@@ -9,7 +9,7 @@ import feedparser
 
 from MyLogger import get_logger
 
-class Test:
+class RssApp:
     def __init__(self, url, debug):
         self._dbg = debug
         self._lgr = get_logger(__class__.__name__, self._dbg)
@@ -42,16 +42,12 @@ def main(url, debug):
     _lgr = get_logger(__name__, debug)
     _lgr.debug('url=%s', url)
 
-    _lgr.info('start')
-
-    app = Test(url, debug=debug)
+    app = RssApp(url, debug=debug)
 
     try:
         app.main()
     finally:
-        _lgr.debug('finally')
         app.end()
-        _lgr.debug('end')
 
 
 if __name__ == '__main__':
