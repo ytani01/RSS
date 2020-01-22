@@ -24,7 +24,7 @@ $ ./rss.py RSS-URL
 
 ### URLs
 
-* [Yahoo天気:横浜](https://rss-weather.yahoo.co.jp/rss/days/4610.xml):
+* Yahoo天気:横浜:
   https://rss-weather.yahoo.co.jp/rss/days/4610.xml
-* [日テレNEWS24](http://www.news24.jp/rss/index.rdf):
+* 日テレNEWS24:
   http://www.news24.jp/rss/index.rdf
