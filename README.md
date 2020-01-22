@@ -24,4 +24,5 @@ $ ./rss.py RSS-URL
 
 ### URLs
 
-[Yahoo天気](https://rss-weather.yahoo.co.jp/rss/days/4610.xml)
+* [Yahoo天気](https://rss-weather.yahoo.co.jp/rss/days/4610.xml)
+  https://rss-weather.yahoo.co.jp/rss/days/4610.xml
