@@ -1,16 +1,6 @@
 # RSSリーダー
 
 
-## usage
-
-$ rss.py url
-
-
-### ex.
-
-$ rss.py https://rss-weather.yahoo.co.jp/rss/days/4610.xml
-
-
 ## install
 
 ```
@@ -22,3 +12,16 @@ $ . ~/env-rss/bin/activate
 (env-rss)$ cd RSS
 (env-rss)$ pip install -r requirements.txt
 ```
+
+
+## usage
+
+```
+$ cd ~/env-rss/RSS
+$ ./rss.py RSS-URL
+```
+
+
+### URLs
+
+[Yahoo天気](https://rss-weather.yahoo.co.jp/rss/days/4610.xml)
